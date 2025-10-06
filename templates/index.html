@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Este es mi primer plantilla con flask y jinja2</h1>
+    <h4>Creado por: {{nombre}}</h4>
+    <ol>
+        {%for amigos in amigos%}
+        <li>{{amigos}}</li>
+        {% endfor %}
+    </ol>
+    <h1>Edad de mis amiguis</h1>
+    <h4>Creador por: {{autor}}</h4>
+    <ol>
+        {%for edad in edad%}
+        <li>{{edad}}</li>
+        {% endfor %}
+    </ol>
+    <h1>Especies de gatitos</h1>
+    <h4>sus razas : {{autor}}</h4>
+    <ol>
+        {%for gatos in gatos%}
+        <li>{{gatos}}</li>
+        {% endfor %}
+    </ol>
+    <h1>Especies de perros</h1>
+    <h4>sus razas: {{autor}}</h4>
+    <ol>
+        {%for caninos in caninos%}
+        <li>{{caninos}}</li>
+        {% endfor %}
+    </ol>
+
+</body>
+</body>
+</html>
